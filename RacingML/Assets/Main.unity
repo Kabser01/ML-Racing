@@ -2476,7 +2476,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235951894}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1765461, y: -3.842626, z: 30.214766}
+  m_LocalPosition: {x: -16.286545, y: -3.842626, z: 30.214766}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2810,6 +2810,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &260083924
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 370885022}
+    m_Modifications:
+    - target: {fileID: 2069814030545375925, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_Name
+      value: MLAgent Sport Coupe
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+--- !u!4 &260083925 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+  m_PrefabInstance: {fileID: 260083924}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &261876157
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3965,7 +4027,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354533035}
   m_LocalRotation: {x: 0.20350897, y: -0.6771884, z: 0.203509, w: 0.6771884}
-  m_LocalPosition: {x: -24.5, y: 2.5, z: 0.0000004172325}
+  m_LocalPosition: {x: -9.39, y: 2.5, z: 0.0000004172325}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4341,6 +4403,40 @@ Transform:
   - {fileID: 1595875555}
   m_Father: {fileID: 1623760751}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &370885021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 370885022}
+  m_Layer: 0
+  m_Name: ML Agents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &370885022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370885021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -34.247593, y: 2.2094455, z: -7.7875767}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 260083925}
+  - {fileID: 1721654801}
+  - {fileID: 2014163442}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &373994830
 PrefabInstance:
@@ -13938,7 +14034,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2069814030545375925, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
       propertyPath: m_Name
-      value: VPP Sport Coupe
+      value: Player Vehicle
       objectReference: {fileID: 0}
     - target: {fileID: 2069814030545375925, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
       propertyPath: m_TagString
@@ -13950,7 +14046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28
+      value: -12.89
       objectReference: {fileID: 0}
     - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18243,7 +18339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623760749}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.0495453, y: -2.4118261, z: 30.317766}
+  m_LocalPosition: {x: -20.159546, y: -2.4118261, z: 30.317766}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19013,6 +19109,89 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1824497473}
+--- !u!1001 &1721654800
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 370885022}
+    m_Modifications:
+    - target: {fileID: 2069814030545375925, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_Name
+      value: MLAgent Sport Coupe (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+--- !u!4 &1721654801 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+  m_PrefabInstance: {fileID: 1721654800}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1721654802 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2069814030545375925, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+  m_PrefabInstance: {fileID: 1721654800}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1721654803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721654802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1163079462, guid: b8873f7cd5fec6f49a4b37228b9b23ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEngine: 1
+  pressBrakes: 0
+  setAutomaticGear: 1
+  automaticGearMode: 3
 --- !u!1 &1742118359 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5644745960259077826, guid: 4e6d78662a55b6e469455ae4e296ff23, type: 3}
@@ -21678,6 +21857,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1824497473}
+--- !u!1001 &2014163441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 370885022}
+    m_Modifications:
+    - target: {fileID: 2069814030545375925, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_Name
+      value: MLAgent Sport Coupe (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069814030545375935, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+      propertyPath: resetState
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+--- !u!4 &2014163442 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2069814030545375927, guid: f7a352f52c0b4034a8e157c2e33e54c4, type: 3}
+  m_PrefabInstance: {fileID: 2014163441}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2021796644 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5644745960259077826, guid: 4e6d78662a55b6e469455ae4e296ff23, type: 3}

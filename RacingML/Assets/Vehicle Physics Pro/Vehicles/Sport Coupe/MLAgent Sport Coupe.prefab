@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 2069814030545375933}
   - component: {fileID: 2069814030545375935}
   m_Layer: 8
-  m_Name: VPP Sport Coupe
+  m_Name: MLAgent Sport Coupe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
