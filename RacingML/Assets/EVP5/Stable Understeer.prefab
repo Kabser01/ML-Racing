@@ -733,6 +733,7 @@ GameObject:
   - component: {fileID: 6005361531283495850}
   - component: {fileID: 6005361531283514628}
   - component: {fileID: 6005361531283464318}
+  - component: {fileID: 2053355605670570854}
   m_Layer: 0
   m_Name: Stable Understeer
   m_TagString: Untagged
@@ -1079,6 +1080,18 @@ MonoBehaviour:
   brakesMaterialIndex: 0
   brakesOnMaterial: {fileID: 2100000, guid: cf2165b8c0c410449aa0bc0d325c65eb, type: 2}
   brakesOffMaterial: {fileID: 2100000, guid: 9251e20ab7ba62c4ebf2437bc9eb9de6, type: 2}
+--- !u!114 &2053355605670570854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005361531273741096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2590b307e49d5324c8e9eed37f8bee14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6005361531273742614
 GameObject:
   m_ObjectHideFlags: 0

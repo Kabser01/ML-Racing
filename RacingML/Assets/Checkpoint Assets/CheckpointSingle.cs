@@ -10,8 +10,9 @@ public class CheckpointSingle : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) {
        if (other.gameObject == Player) {
-         trackCheckpoints.PlayerThroughCheckpoint(this);
-     
+        //if (other.TryGetComponent<Mesg>(out Player player)) {
+        trackCheckpoints.CarThroughCheckpoint(this, other.transform);
+
         }
     }
 
